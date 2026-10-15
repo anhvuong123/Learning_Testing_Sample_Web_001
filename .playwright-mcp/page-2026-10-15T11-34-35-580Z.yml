@@ -1,0 +1,20 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: flow.
+    - heading "Welcome back" [level=1] [ref=e11]
+    - paragraph [ref=e12]: Your money, clear and under control.
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - text: Email address
+        - textbox "Email address" [ref=e15]:
+          - /placeholder: you@example.com
+      - generic [ref=e16]:
+        - text: Password
+        - textbox "Password" [ref=e17]:
+          - /placeholder: At least 6 characters
+      - button "Sign in →" [ref=e18] [cursor=pointer]:
+        - text: Sign in
+        - generic [ref=e19]: →
+    - paragraph [ref=e20]:
+      - text: Don't have an account?
+      - button "Create one" [ref=e21] [cursor=pointer]
